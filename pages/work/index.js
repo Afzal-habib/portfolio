@@ -26,9 +26,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Here is my work the development of dynamic and scalable web
-              applications. From conceptualization to deployment, I ensure a
-              seamless and responsive user experience.
+          My work involves making the UI/UX design of websites user-friendly through my frontend skills.
             </motion.p>
           </div>
           <motion.div

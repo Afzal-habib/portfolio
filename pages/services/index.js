@@ -26,12 +26,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              I have hands-on experience in building and maintaining full-stack
-              web applications using Mern Stack.Specializing in Wordpress in
-              custom theme development,plugin integration, and site
-              optimization.As a Local SEO expert,I drive targeted visibility by
-              implementing effective strategies, optimizing Google My Business,
-              and leveraging local keywords for enhanced online presence.
+    I am a skilled Frontend Developer with experience in both development and maintenance of Full Stack Web applications. I am also a UI/UX Designer and have worked as a Frontend Developer with a focus on UI/UX at Arfa Tower, Heapware, and Ideo.
             </motion.p>
           </div>
           <motion.div

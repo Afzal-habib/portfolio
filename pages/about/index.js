@@ -129,14 +129,7 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            I am a Computer Scientist who just graduated from the premier IT
-            Institute Lahore Leads University in Computer Science Majors. I am a
-            highly skilled professional developer who loves to take on the
-            challenges and then solve them.I worked with Digierapro company as a
-            wordpress developer in many projects.i also worked with
-            Shyftdigitally.This is a Canadian company.Now i m working with
-            heapware as a full stack developer on different proejcts with
-            advance technologies using ReactJS and NextJS.
+     I recently completed my BSc from Punjab University and am currently pursuing Software Engineering at Virtual University. I am a skilled and enthusiastic developer who enjoys tackling challenges and resolving them. I previously worked at Arfa Tower in Lahore and now, I am part of its branch at Heapware Software House, working as a frontend developer with a role in UI/UX design. Here, I am involved in various projects, utilizing advanced technologies such as ReactJS and NextJS.
           </motion.p>
           <div>
             <motion.div

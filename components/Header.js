@@ -9,13 +9,13 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center">
           <Link href={"/"}>
-            <Image
+            {/* <Image
               src={"/logo.png"}
               width={80}
               height={30}
               alt=""
               priority={true}
-            />
+            /> */}
           </Link>
           <Socials />
         </div>

@@ -26,7 +26,7 @@ const Home = () => {
           >
             Hi,This is
             <br />
-            <span className="text-accent"> Aqib Akram</span>
+            <span className="text-accent"> Misbah Ali</span>
           </motion.h1>
           <motion.p
             variants={fadeIn("down", 0.3)}
@@ -36,7 +36,7 @@ const Home = () => {
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             A passionate Full Stack Software Developer 🚀 having a special
-            interest in Full stack technologies and experience of building Web
+            interest in Frontend technologies and experience of building Web
             applications with JavaScript / Reactjs / Nextjs / Nodejs and some
             other cool libraries and frameworks.?
           </motion.p>
