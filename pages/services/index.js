@@ -15,8 +15,7 @@ const Services = () => {
               variants={fadeIn("up", 0.2)}
               initial="hidden"
               animate="show"
-              className="h2 xl:mt-8"
-            >
+              className="h2 xl:mt-8">
               My Skills <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
@@ -24,9 +23,12 @@ const Services = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="mb-4 max-w-[400px] mx-auto lg:mx-0"
-            >
-    I am a skilled Frontend Developer with experience in both development and maintenance of Full Stack Web applications. I am also a UI/UX Designer and have worked as a Frontend Developer with a focus on UI/UX at Arfa Tower, Heapware, and Ideo.
+              className="mb-4 max-w-[400px] mx-auto lg:mx-0">
+              I am a skilled Frontend Developer with experience in both
+              development and maintenance of Full Stack Web applications. I am
+              also a UI/UX Designer and have worked as a Frontend Developer with
+              a focus on UI/UX at Arfa Tower, Heapware, and Ideoversity
+              institute of Information Technology.
             </motion.p>
           </div>
           <motion.div
@@ -34,8 +36,7 @@ const Services = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full lg:w-[60%] xl:max-w[65%]"
-          >
+            className="w-full lg:w-[60%] xl:max-w[65%]">
             <ServiceSlider />
           </motion.div>
         </div>

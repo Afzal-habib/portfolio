@@ -67,14 +67,14 @@ const aboutData = [
         title: "full Stack -Heapware Company",
         stage: "May-2023 - Cont",
       },
-      {
-        title: "Wordpress Developer - ShyftDigitally",
-        stage: " May-2023 - Dec-2023",
-      },
-      {
-        title: "Wordpres Developer - Digierapro",
-        stage: "Jan-2022 - Dec-2022",
-      },
+      // {
+      //   title: "Wordpress Developer - ShyftDigitally",
+      //   stage: " May-2023 - Dec-2023",
+      // },
+      // {
+      //   title: "Wordpres Developer - Digierapro",
+      //   stage: "Jan-2022 - Dec-2022",
+      // },
     ],
   },
   {
@@ -83,6 +83,10 @@ const aboutData = [
       {
         title: "Full Stack Web Development - Ideoversity",
         stage: "Oct-2022-May-2023",
+      },
+      {
+        title: "Full Stack Web Development -  HOP",
+        stage: "March-2022-Sep-2023",
       },
       {
         title: "Ms Office - Brains College",
@@ -108,16 +112,14 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="hidden xl:flex absolute bottom-0 -left-[400px]"
-      >
+        className="hidden xl:flex absolute bottom-0 -left-[400px]">
         <Avatar />
       </motion.div>
       <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
         animate="show"
-        className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6"
-      >
+        className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center ml-0 lg:ml-9">
           <h2 className="h2 line-clamp-2 ">
             About <span className="text-accent">Me</span>
@@ -127,17 +129,22 @@ const About = () => {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             animate="show"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
-          >
-     I recently completed my BSc from Punjab University and am currently pursuing Software Engineering at Virtual University. I am a skilled and enthusiastic developer who enjoys tackling challenges and resolving them. I previously worked at Arfa Tower in Lahore and now, I am part of its branch at Heapware Software House, working as a frontend developer with a role in UI/UX design. Here, I am involved in various projects, utilizing advanced technologies such as ReactJS and NextJS.
+            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
+            I am currently pursuing Software Engineering at University of
+            Engineering and Technology(UET) Lahore. I am a skilled and
+            enthusiastic developer who enjoys tackling challenges and resolving
+            them. I previously worked at Arfa Tower in Lahore and now, I am part
+            of its branch at Heapware Software House, working as a frontend
+            developer with a role in UI/UX design. Here, I am involved in
+            various projects, utilizing advanced technologies such as ReactJS
+            and NextJS.
           </motion.p>
           <div>
             <motion.div
               variants={fadeIn("right", 0.2)}
               initial="hidden"
               animate="show"
-              className="flex flex-1 xl-gap-6"
-            >
+              className="flex flex-1 xl-gap-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-8">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={8} duration={10} />+
@@ -184,8 +191,7 @@ const About = () => {
                     "text-accent after:w-[100%] after:transition-all after:duration-300"
                   }  cursor-pointer capitalize xl:text-lg z-30 mt-10 relative after:w-8 after:h-[2px] 
         after:bg-white after:absolute after:bottom-0 after:left-0`}
-                  onClick={() => setIndex(itemIndex)}
-                >
+                  onClick={() => setIndex(itemIndex)}>
                   <h2>{item.title}</h2>
                 </div>
               );
@@ -196,8 +202,7 @@ const About = () => {
               return (
                 <div
                   key={itemIndex}
-                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
-                >
+                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
                   <div className="font-light mb-2 md-mb-0">{item.title}</div>
                   <div className="hidden md:flex">-</div>
                   <div>{item.stage}</div>
