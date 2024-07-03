@@ -67,6 +67,10 @@ const aboutData = [
         title: "full Stack -Heapware Company",
         stage: "May-2023 - Cont",
       },
+      {
+        title: "Internship -Idioversity IT Institue",
+        stage: "May-2023 - DEC-2023",
+      },
       // {
       //   title: "Wordpress Developer - ShyftDigitally",
       //   stage: " May-2023 - Dec-2023",

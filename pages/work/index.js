@@ -15,8 +15,7 @@ const Work = () => {
               variants={fadeIn("up", 0.2)}
               initial="hidden"
               animate="show"
-              className="h2 xl:mt-12"
-            >
+              className="h2 xl:mt-12">
               My work <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
@@ -24,9 +23,9 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="mb-4 max-w-[400px] mx-auto lg:mx-0"
-            >
-          My work involves making the UI/UX design of websites user-friendly through my frontend skills.
+              className="mb-4 max-w-[400px] mx-auto lg:mx-0">
+              My work involves making the UI/UX design of websites user-friendly
+              through my frontend skills.
             </motion.p>
           </div>
           <motion.div
@@ -34,8 +33,7 @@ const Work = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full lg:w-[60%] xl:max-w[65%] "
-          >
+            className="w-full lg:w-[60%] xl:max-w[65%] ">
             <WorkSlider />
           </motion.div>
         </div>

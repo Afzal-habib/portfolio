@@ -16,7 +16,7 @@ const workSlides = {
         },
         {
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/thumb1.jpg",
         },
       ],
     },
@@ -24,7 +24,7 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/thumb1.jpg",
         },
         {
           title: "title",
@@ -58,8 +58,7 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className="h-[280px] sm:h-[480px]"
-    >
+      className="h-[280px] sm:h-[480px]">
       {workSlides.slides.map((item, index) => {
         return (
           <SwiperSlide key={index}>
@@ -68,8 +67,7 @@ const WorkSlider = () => {
                 return (
                   <div
                     className="relative rounded-lg overflow-hidden flex items-center justify-center group "
-                    key={index}
-                  >
+                    key={index}>
                     <div className="flex items-center justify-center relative overflow-hidden group">
                       <Image src={image.path} width={400} height={200} alt="" />
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>

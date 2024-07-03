@@ -4,22 +4,33 @@ const testimonialData = [
     image: "/t-avt-1.png",
     name: "Anne Smith",
     position: "Customer",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+    message: `“I can bet that it's too hard to find professional developers like Afzal Habib. He could peek inside my mimade the site exactly as I wanted. Much appreciated”`,
   },
   {
     image: "/t-avt-2.png",
     name: "Jane Doe",
     position: "Customer",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+    message: `
+                  “Afzal Habib is a talented, committed individual who will leave no
+                  stone unturned in his pursuit to provide with the best. His
+                  attention to detail and in-depth experience in the of web
+                  development is indeed commendable. He has exhibited exemplary
+                  skills in the field, and I hope to see all the great projects
+                  coming up!”
+                `,
   },
   {
     image: "/t-avt-3.png",
     name: "Jhon Doe",
     position: "Customer",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+    message: `
+      
+                  “Afzal Habib was a wonderful developer to work with! He anticipated
+                  everything I need to consider for my website. He also went the
+                  extra mile and added details that I hadn't considered! He is
+                  helping my business grow, and I will definitely work with him
+                  again!”
+                `,
   },
 ];
 
@@ -35,12 +46,11 @@ const TestimonialSlider = () => {
   return (
     <Swiper
       navigation={true}
-      // pagination={{
-      //   clickable: true,
-      // }}
+      pagination={{
+        clickable: true,
+      }}
       modules={[Navigation, Pagination]}
-      className="w-[80%]"
-    >
+      className="w-[80%]">
       {testimonialData.map((person, index) => {
         return (
           <SwiperSlide key={index}>
