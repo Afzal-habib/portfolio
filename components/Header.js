@@ -10,7 +10,7 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center">
           <Link href={"/"}>
             <Image
-              src={"/logo.svg"}
+              src={"/logo.png"}
               width={80}
               height={30}
               alt=""
